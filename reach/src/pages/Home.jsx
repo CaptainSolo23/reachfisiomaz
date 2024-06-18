@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Preparando todo para reach fisioterapia</div>
+    <h1>Preparando todo para reach fisioterapia</h1>
   )
 }
 

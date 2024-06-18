@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { Contact, Home, Services, Who } from '../pages'
+import { Contact, Home, Services, Who, Questions } from '../pages'
 
 const Index = () => {
   return (
@@ -8,6 +8,7 @@ const Index = () => {
       <Route path='contacto' element={<Contact />} />
       <Route path='quienes-somos' element={<Who />} />
       <Route path='servicios' element={<Services />} />
+      <Route path='preguntas' element={<Questions />} />
     </Routes>
   )
 }
