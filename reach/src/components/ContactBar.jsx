@@ -21,7 +21,7 @@ const ContactBar = () => {
                                                                                                                                           />
         </a>
 
-        <a className='contact-bar__nav-link mx-2' href='https://www.instagram.com/reachfisiomaz/' target='_blank' rel='noopener noreferrer'><SlSocialInstagram />
+        <a className='contact-bar__nav-link mx-2' href='https://www.instagram.com/reachfisiomaz/' target='_blank' rel='noopener noreferrer'><SlSocialInstagram className='contact-bar__nav-link' />
         </a>
 
       </div>
